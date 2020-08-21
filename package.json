@@ -1,7 +1,7 @@
 {
   "name": "docker-node-mongo",
   "version": "1.0.0",
-  "description": "",
+  "description": "> Simple example of a dockerized Node/Mongo app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,5 +13,14 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "mongoose": "^5.2.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradtraversy/docker-node-mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradtraversy/docker-node-mongo/issues"
+  },
+  "homepage": "https://github.com/bradtraversy/docker-node-mongo#readme"
 }
